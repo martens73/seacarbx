@@ -58,7 +58,7 @@ carbx(flag=1, var1=8.1, var2=12e-6, S=35, T=25, ca=10, mg=53,...)
 For more details, we refer here to the [**manual** of the original *seacarb* package](https://cran.r-project.org/web/packages/seacarb/seacarb.pdf).
 
 ## Citation
-If you use seacarbx, please cite it with... will follow soon (with doi)...
+Raitzsch, M., Gattuso, J.-P. and Hain, M. (2020): seacarbx - seacarb extension for deep-time carbonate system calculations, Zenodo, http://doi.org/10.5281/zenodo.4139858.
 
 but please also acknowledge the original works of the following:
 
