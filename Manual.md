@@ -8,7 +8,7 @@
 
 
 ## Prerequisites
-*seacarbx* requires a base R installation (recommended with an installation of RStudio) and installed packages of 'seacarb' and 'dplyr'. You may install them at once with:
+*seacarbx* requires a base R installation (recommended with an installation of RStudio) and installed packages of *seacarb* and *dplyr*. You may install them at once with:
 
 ```{undefined}
 install.packages(c("seacarb","dplyr"))
