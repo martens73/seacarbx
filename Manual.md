@@ -1,10 +1,8 @@
 
----
-title: "'seacarbx' Manual"
-author: "Markus Raitzsch, Jean-Pierre Gattuso, and Mathis Hain"
-date: "October 2020"
-output: html_document
----
+# 'seacarbx' Manual
+### Markus Raitzsch, Jean-Pierre Gattuso, and Mathis Hain
+#### October 2020
+
 ## Description
 *seacarbx* is a **seacarb** e**x**tension, which enables to use *seacarb* ([Gattuso et al., 2019](http://CRAN.R-project.org/package=seacarb)) for deep-time carbonate system calculations. For this, the functions **carb**, **K0**, **K1**, **K2**, **Ks**, **Kw**, **Kb**, **Kspa**, and **Kspc** were modfied to account for the effect of seawater [Mg^2+^] and [Ca^2+^] on the dissociation constants of carbonic and boric acid. Their names are based on the original names, and suffixed with a ‘x’. In addition to the modified functions, *seacarbx* contains **MyAMI** that are tabulated parameters defining the temperature and salinity dependencies of the conditional equilibrium constants for [Mg^2+^] and [Ca^2+^] in the range 0–60 mM (from [Hain et al., 2015](http://dx.doi.org/10.1002/2014GB004986)).
 
