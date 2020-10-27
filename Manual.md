@@ -31,7 +31,7 @@ First, load the rda file, which contains the functions and the tabulated *MYAMI*
 ```{undefined}
 load("seacarbx.rda")
 ```
-The syntax is principally used the same way as for the original functions, except for the additional input parameters [Mg^2+^] and [Ca^2+^] (in mM), which are, as an example, called like this:
+The syntax is principally used the same way as for the original functions, except for the additional input parameters [Mg2+] and [Ca2+] (in mM), which are, as an example, called like this:
 ```{undefined}
 carbx(flag=1, var1=8.1, var2=12e-6, S=35, T=25, ca=10, mg=53,...)
 ```
@@ -47,7 +47,7 @@ carbx(flag=1, var1=8.1, var2=12e-6, S=35, T=25, ca=10, mg=53,...)
 
 - Ksx() is the equivalent to the function Ks(), and returns the stability constant of hydrogen sulfate (mol/kg).
 
-- Kwx() is the equivalent to the function Kw(), and returns the ion product of water (mol^2^/kg^2^)
+- Kwx() is the equivalent to the function Kw(), and returns the ion product of water (mol2/kg2)
 
 - Kbx() is the equivalent to the function Kb(), and returns the dissociation constant of boric acid (mol/kg)
 
