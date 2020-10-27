@@ -1,5 +1,4 @@
-# seacarbx
-seacarbx - seacarb extension for deep-time carbonate system calculations
+# seacarbx - seacarb extension for deep-time carbonate system calculations
 
 *seacarbx* is a **seacarb** e**x**tension written in R, which enables to use *seacarb* (Gattuso et al., 2019) for deep-time carbonate system calculations. For this, the functions carb, K0, K1, K2, Ks, Kw, Kb, Kspa, and Kspc were modfied to account for the effect of seawater [Mg<sup>2+</sup>] and [Ca<sup>2+</sup>] on the dissociation constants of carbonic and boric acid. Their names are based on the original names, and suffixed with a ‘x’. In addition to the modified functions, seacarbx contains *MyAMI* that are tabulated parameters defining the temperature and salinity dependencies of the conditional equilibrium constants for [Mg<sup>2+</sup>] and [Ca<sup>2+</sup>] in the range 0–60 mM (from Hain et al., 2015). Please read the manual for more details.
 
