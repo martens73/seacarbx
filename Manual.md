@@ -60,7 +60,7 @@ For more details, we refer here to the [**manual** of the original *seacarb* pac
 ## Citation
 If you use seacarbx, please cite it with... will follow soon (with doi)...
 
-but please also acknowledge the original work of the following two:
+but please also acknowledge the original works of the following:
 
 Gattuso J.-P., Epitalon J.-M., Lavigne H. and Orr J. (2019): seacarb: seawater carbonate chemistry. R package version 3.2.12. http://CRAN.R-project.org/package=seacarb.
 
