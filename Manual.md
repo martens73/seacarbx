@@ -60,7 +60,7 @@ For more details, we refer here to the [**manual** of the original *seacarb* pac
 ## Citation
 Raitzsch, M., Gattuso, J.-P. and Hain, M. (2020): seacarbx - seacarb extension for deep-time carbonate system calculations, Zenodo, http://doi.org/10.5281/zenodo.4139858.
 
-but please also acknowledge the original works of the following:
+**but please also acknowledge the original works of the following:**
 
 Gattuso J.-P., Epitalon J.-M., Lavigne H. and Orr J. (2019): seacarb: seawater carbonate chemistry. R package version 3.2.12. http://CRAN.R-project.org/package=seacarb.
 
