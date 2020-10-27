@@ -60,11 +60,9 @@ For more details, we refer here to the [**manual** of the original *seacarb* pac
 ## Citation
 If you use seacarbx, please cite it with... will follow soon (with doi)...
 
-but please also acknowledge the original work of
+but please also acknowledge the original work of the following two:
 
 Gattuso J.-P., Epitalon J.-M., Lavigne H. and Orr J. (2019): seacarb: seawater carbonate chemistry. R package version 3.2.12. http://CRAN.R-project.org/package=seacarb.
-
-and
 
 Hain, M. P., Sigman, D. M., Higgins, J. A. and Haug, G. H. (2015): The effects of secular calcium and magnesium concentration changes on the thermodynamics of seawater acid/base chemistry: Implications for Eocene and Cretaceous ocean carbon chemistry and buffering, Glob. Biogeochem. Cyc., 29(5), 517–533, http://doi.org/10.1002/2014GB004986.
 
