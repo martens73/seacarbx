@@ -4,7 +4,7 @@
 #### October 2020
 
 ## Description
-*seacarbx* is a **seacarb** e**x**tension, which enables to use *seacarb* ([Gattuso et al., 2019](http://CRAN.R-project.org/package=seacarb)) for deep-time carbonate system calculations. For this, the functions **carb**, **K0**, **K1**, **K2**, **Ks**, **Kw**, **Kb**, **Kspa**, and **Kspc** were modfied to account for the effect of seawater [Mg2+] and [Ca2+] on the dissociation constants of carbonic and boric acid. Their names are based on the original names, and suffixed with a ‘x’. In addition to the modified functions, *seacarbx* contains **MyAMI** that are tabulated parameters defining the temperature and salinity dependencies of the conditional equilibrium constants for [Mg2+] and [Ca2+] in the range 0–60 mM (from [Hain et al., 2015](http://dx.doi.org/10.1002/2014GB004986)).
+*seacarbx* is a **seacarb** e**x**tension, which enables to use *seacarb* ([Gattuso et al., 2019](http://CRAN.R-project.org/package=seacarb)) for deep-time carbonate system calculations. For this, the functions **carb**, **K0**, **K1**, **K2**, **Ks**, **Kw**, **Kb**, **Kspa**, and **Kspc** were modfied to account for the effect of seawater [Mg<sup>2+</sup>] and [Ca<sup>2+</sup>] on the dissociation constants of carbonic and boric acid. Their names are based on the original names, and suffixed with a ‘x’. In addition to the modified functions, *seacarbx* contains **MyAMI** that are tabulated parameters defining the temperature and salinity dependencies of the conditional equilibrium constants for [Mg<sup>2+</sup>] and [Ca<sup>2+</sup>] in the range 0–60 mM (from [Hain et al., 2015](http://dx.doi.org/10.1002/2014GB004986)).
 
 
 ## Prerequisites
@@ -31,7 +31,7 @@ First, load the rda file, which contains the functions and the tabulated *MYAMI*
 ```{undefined}
 load("seacarbx.rda")
 ```
-The syntax is principally used the same way as for the original functions, except for the additional input parameters [Mg2+] and [Ca2+] (in mM), which are, as an example, called like this:
+The syntax is principally used the same way as for the original functions, except for the additional input parameters [Mg<sup>2+</sup>] and [Ca<sup>2+</sup>] (in mM), which are, as an example, called like this:
 ```{undefined}
 carbx(flag=1, var1=8.1, var2=12e-6, S=35, T=25, ca=10, mg=53,...)
 ```
@@ -47,7 +47,7 @@ carbx(flag=1, var1=8.1, var2=12e-6, S=35, T=25, ca=10, mg=53,...)
 
 - Ksx() is the equivalent to the function Ks(), and returns the stability constant of hydrogen sulfate (mol/kg).
 
-- Kwx() is the equivalent to the function Kw(), and returns the ion product of water (mol2/kg2)
+- Kwx() is the equivalent to the function Kw(), and returns the ion product of water (mol<sup>2</sup>/kg<sup>2</sup>)
 
 - Kbx() is the equivalent to the function Kb(), and returns the dissociation constant of boric acid (mol/kg)
 
