@@ -57,4 +57,12 @@ carbx(flag=1, var1=8.1, var2=12e-6, S=35, T=25, ca=10, mg=53,...)
 
 For more details, we refer here to the [**manual** of the original *seacarb* package](https://cran.r-project.org/web/packages/seacarb/seacarb.pdf).
 
+## References
+Gattuso J.-P., Epitalon J.-M., Lavigne H. and Orr J. (2019): seacarb: seawater carbonate chemistry. R package version 3.2.12. http://CRAN.R-project.org/package=seacarb.
+
+Hain, M. P., Sigman, D. M., Higgins, J. A. and Haug, G. H. (2015): The effects of secular calcium and magnesium concentration changes on the thermodynamics of seawater acid/base chemistry: Implications for Eocene and Cretaceous ocean carbon chemistry and buffering, Glob. Biogeochem. Cyc., 29(5), 517–533, doi:10.1002/2014GB004986.
+
+## Citation
+Will follow soon (with doi)
+
 <br><br>
