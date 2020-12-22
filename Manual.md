@@ -20,7 +20,7 @@ library(seacarb)
 ## Usage
 First, load the rda file, which contains the functions and the tabulated *MYAMI* data:
 ```{undefined}
-load("seacarbx.rda")
+load("seacarbx_1mM_steps.rda")
 ```
 The syntax is principally used the same way as for the original functions, except for the additional input parameters [Mg<sup>2+</sup>] and [Ca<sup>2+</sup>] (in mol/L), which are, as an example, called like this:
 ```{undefined}
