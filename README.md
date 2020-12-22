@@ -12,5 +12,5 @@ Gattuso J.-P., Epitalon J.-M., Lavigne H. and Orr J. (2019): seacarb: seawater c
 
 Hain, M. P., Sigman, D. M., Higgins, J. A. and Haug, G. H. (2015): The effects of secular calcium and magnesium concentration changes on the thermodynamics of seawater acid/base chemistry: Implications for Eocene and Cretaceous ocean carbon chemistry and buffering, Glob. Biogeochem. Cyc., 29(5), 517–533, http://doi.org/10.1002/2014GB004986.
 
-Hain, M. P., Sigman, D. M., Higgins, J. A. and Haug, G. H.: Response to Comment by Zeebe and Tyrrell on “The Effects of Secular Calcium and Magnesium Concentration Changes on the Thermodynamics of Seawater Acid/Base Chemistry: Implications for the Eocene and Cretaceous Ocean Carbon Chemistry and Buffering,” Glob. Biogeochem. Cyc., 32(5), 898–901, doi:https://doi.org/10.1002/2018GB005931, 2018.
+Hain, M. P., Sigman, D. M., Higgins, J. A. and Haug, G. H. (2018): Response to Comment by Zeebe and Tyrrell on “The Effects of Secular Calcium and Magnesium Concentration Changes on the Thermodynamics of Seawater Acid/Base Chemistry: Implications for the Eocene and Cretaceous Ocean Carbon Chemistry and Buffering,” Glob. Biogeochem. Cyc., 32(5), 898–901, doi:https://doi.org/10.1002/2018GB005931.
 
