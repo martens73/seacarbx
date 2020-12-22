@@ -6,22 +6,15 @@
 
 
 ## Prerequisites
-*seacarbx* requires a base R installation (recommended with an installation of RStudio) and installed packages of *seacarb* and *dplyr*. You may install them at once with:
+*seacarbx* requires a base R installation (recommended with an installation of RStudio) and an installation of the package *seacarb*. You may install it with:
 
 ```{undefined}
-install.packages(c("seacarb","dplyr"))
-```
-
-or separately with:
-
-```{undefined}
-install.packages("name of the package")
+install.packages("seacarb")
 ```
 
 Then load the required libraries:
 ```{undefined}
 library(seacarb)
-library(dplyr)
 ```
 
 ## Usage
@@ -29,9 +22,9 @@ First, load the rda file, which contains the functions and the tabulated *MYAMI*
 ```{undefined}
 load("seacarbx.rda")
 ```
-The syntax is principally used the same way as for the original functions, except for the additional input parameters [Mg<sup>2+</sup>] and [Ca<sup>2+</sup>] (in mM), which are, as an example, called like this:
+The syntax is principally used the same way as for the original functions, except for the additional input parameters [Mg<sup>2+</sup>] and [Ca<sup>2+</sup>] (in mol/L), which are, as an example, called like this:
 ```{undefined}
-carbx(flag=1, var1=8.1, var2=12e-6, S=35, T=25, ca=10, mg=53,...)
+carbx(flag=1, var1=8.1, var2=12e-6, S=35, T=25, ca=10e-3, mg=53e-3,...)
 ```
 
 ## Functions
