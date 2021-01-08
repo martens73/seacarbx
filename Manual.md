@@ -28,7 +28,7 @@ carbx(flag=1, var1=8.1, var2=12e-6, S=35, T=25, ca=10.2821e-03, mg=52.8171e-03,.
 ```
 **NOTE** that the argument *k1k2* is not accessible for the functions *carbx*, *K1x* and *K2x*, but the empirical equilibrium constants from [Lueker et al. (2000)](https://doi.org/10.1016/S0304-4203(00)00022-0) are used in the *MyAMI* model ([Hain et al., 2015](http://dx.doi.org/10.1002/2014GB004986)).
 
-Every time that the input variables [Ca<sup>2+</sup>] and/or [Mg<sup>2+</sup>] are changed in the seacarbx functions, the bilinear interpolation function *lookup_fn* is called automatically, which computes accurate parameters from the MyAMI lookup table. *lookup_fn* can also be used as a separate lookup function for calculating the MyAMI parameters for a given set of [Mg<sup>2+</sup>] and [Ca<sup>2+</sup>], which can optionally be saved as a text file ("MyAMI_param_output.txt") to your working directory by using the *print* argument:
+Every time that the input variables [Ca<sup>2+</sup>] and/or [Mg<sup>2+</sup>] are changed in the seacarbx functions, the bilinear interpolation function *lookup_fn* is called automatically, which computes accurate parameters from the MyAMI lookup table. *lookup_fn* can also be used as a separate lookup function to calculate the MyAMI parameters for a given set of [Mg<sup>2+</sup>] and [Ca<sup>2+</sup>], which can optionally be saved as a text file ("MyAMI_param_output.txt") to your working directory by using the *print* argument:
 ```{undefined}
 lookup_fn(ca=10.2821e-03, mg=52.8171e-03, print=TRUE)
 ```
