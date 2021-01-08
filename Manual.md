@@ -51,14 +51,16 @@ getwd()
 
 - Ksx() is the equivalent to the function Ks(), and returns the stability constant of hydrogen sulfate (mol/kg).
 
-- Kwx() is the equivalent to the function Kw(), and returns the ion product of water (mol<sup>2</sup>/kg<sup>2</sup>)
+- Kwx() is the equivalent to the function Kw(), and returns the ion product of water (mol<sup>2</sup>/kg<sup>2</sup>).
 
-- Kbx() is the equivalent to the function Kb(), and returns the dissociation constant of boric acid (mol/kg)
+- Kbx() is the equivalent to the function Kb(), and returns the dissociation constant of boric acid (mol/kg).
 
-- Kspax() is the equivalent to the function Kspa(), and returns the solubility product of aragonite (mol/kg)
+- Kspax() is the equivalent to the function Kspa(), and returns the solubility product of aragonite (mol/kg).
 
-- Kspcx() is the equivalent to the function Kspc(), and returns the solubility product of calcite (mol/kg)
+- Kspcx() is the equivalent to the function Kspc(), and returns the solubility product of calcite (mol/kg).
 
 For more details, we refer here to the [**manual** of the original *seacarb* package](https://cran.r-project.org/web/packages/seacarb/seacarb.pdf).
+
+- lookup_fn() takes the arguments *ca* and *mg* and interpolates the MyAMI parameters between tabulated data from the lookup table *myami*.
 
 <br><br>
