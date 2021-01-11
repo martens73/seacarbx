@@ -4,7 +4,7 @@
 
 If you use *seacarbx* for your published research, please cite it as:
 
-Raitzsch, M., Hain, M., Henehan, M, and Gattuso, J.-P. (2021): seacarbx - seacarb extension for deep-time carbonate system calculations, Zenodo, http://doi.org/10.5281/zenodo.4139858.
+Raitzsch, M., Hain, M., Henehan, M, and Gattuso, J.-P. (2021): seacarbx - seacarb extension for deep-time carbonate system calculations, Zenodo, http://doi.org/10.5281/zenodo.4432147.
 
 **but please also acknowledge the original works of the following:**
 
